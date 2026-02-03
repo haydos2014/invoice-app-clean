@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-mist text-ink;
+}
+
+h1, h2, h3 {
+  @apply tracking-tight;
+}
+
+.card {
+  @apply rounded-2xl bg-white shadow-soft border border-cloud;
+}
+
+.badge {
+  @apply inline-flex items-center rounded-full px-3 py-1 text-xs font-medium;
+}
